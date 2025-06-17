@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy - Novela Negra</title>
+    <title>Política de Privacidad - Novela Negra</title>
     <style>
         body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; }
         h1 { color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 10px; }
@@ -24,113 +24,134 @@
             margin: 15px 0;
             font-size: 0.9em;
         }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
 
-<h1>Privacy Policy - Novela Negra</h1>
-<p class="effective-date">Last Updated: 17/06/2025</p>
+<h1>Política de Privacidad - Novela Negra</h1>
+<p class="effective-date">Última actualización: [Inserte Fecha]</p>
 
 <div class="highlight-box">
-    <strong>At a Glance:</strong> Novela Negra respects your privacy. We don't directly collect personal data but use Google AdMob for ads. We comply with GDPR (EU) and CCPA (California) through Google's consent tools.
+    <strong>En resumen:</strong> Novela Negra utiliza Supabase para gestionar cuentas de usuario de forma segura. Recopilamos datos mínimos y cumplimos con el GDPR (UE) y CCPA (California). Tus datos están cifrados y protegidos.
 </div>
 
-<h2>1. Information Collection</h2>
-<h3>1.1 Data We Don't Collect</h3>
-<p>We <strong>do not</strong> directly collect or store:</p>
+<h2>1. Información que Recopilamos</h2>
+<h3>1.1 Datos que nos proporcionas</h3>
+<p>Al crear una cuenta:</p>
 <ul>
-    <li>Names, emails, or contact info</li>
-    <li>Payment information</li>
-    <li>Location data (GPS)</li>
+    <li><strong>Correo electrónico</strong> (requerido para inicio de sesión)</li>
+    <li><strong>Nick</strong> (nombre para mostrar)</li>
+    <li><strong>Contraseña</strong> (cifrada, no accesible para nosotros)</li>
 </ul>
 
-<h3>1.2 Data Processed by Services</h3>
-<p>Third parties (like Google AdMob) may process anonymous data:</p>
+<h3>1.2 Datos recopilados automáticamente</h3>
+<p>A través de Supabase y terceros:</p>
 <ul>
-    <li><strong>Device Info:</strong> Model, OS version</li>
-    <li><strong>Usage Data:</strong> Session length, features used</li>
-    <li><strong>Advertising ID:</strong> Google's AAID</li>
+    <li><strong>Actividad de la cuenta</strong> (marcas de tiempo de acceso)</li>
+    <li><strong>Información del dispositivo</strong> (tipo de navegador/SO para seguridad)</li>
+    <li><strong>ID publicitario</strong> (AAID/IDFA mediante Google AdMob)</li>
 </ul>
 
-<h3>1.3 Consent Management</h3>
 <div class="privacy-badge">
-    <strong>Google UMP SDK:</strong> We use Google's User Messaging Platform to:
-</div>
-<ul>
-    <li>Display GDPR/CCPA-compliant consent requests</li>
-    <li>Respect "Do Not Sell" preferences (CCPA)</li>
-    <li>Store proof of obtained consent</li>
-    <li>Block data processing until consent is given</li>
-</ul>
-
-<h2>2. Legal Compliance</h2>
-<h3>2.1 GDPR (EU/EEA)</h3>
-<p>For European users:</p>
-<ul>
-    <li><strong>Legal Basis:</strong> Consent under Article 6(1)(a) of the GDPR for personalized ads</li>
-    <li><strong>Withdrawal:</strong> Change preferences in app settings</li>
-    <li><strong>DPO Contact:</strong> mongamesworld@gmail.com</li>
-</ul>
-
-<h3>2.2 CCPA (California)</h3>
-<p>California residents can:</p>
-<ul>
-    <li>Opt-out of data "sales"</li>
-    <li>Request disclosure of data collected in past 12 months</li>
-</ul>
-
-<h2>3. Your Rights</h2>
-<div class="highlight-box">
-    <strong>Quick Actions:</strong>
-    <ul>
-        <li>EU Users: Tap "Privacy Settings" in app to update consent</li>
-        <li>CA Users: Click <a href="https://adssettings.google.com" target="_blank">here</a> to opt-out of ad personalization</li>
-    </ul>
+    <strong>Infraestructura de Supabase:</strong> Todos los datos se almacenan cifrados en servidores de la UE (Paris, Francia) bajo contratos conformes al GDPR.
 </div>
 
-<h3>3.1 Full Rights List</h3>
-<table border="1" cellpadding="5" cellspacing="0" style="width:100%; border-collapse: collapse;">
+<h2>2. Cómo utilizamos los datos</h2>
+<table>
     <tr>
-        <th>Right</th>
-        <th>GDPR</th>
-        <th>CCPA</th>
+        <th>Tipo de dato</th>
+        <th>Finalidad</th>
+        <th>Base legal</th>
     </tr>
     <tr>
-        <td>Access</td>
-        <td>✓</td>
-        <td>✓</td>
+        <td>Correo electrónico</td>
+        <td>Autenticación de cuenta</td>
+        <td>Necesidad contractual</td>
     </tr>
     <tr>
-        <td>Deletion</td>
-        <td>✓</td>
-        <td>✓</td>
+        <td>Nick</td>
+        <td>Experiencia personalizada</td>
+        <td>Consentimiento</td>
     </tr>
     <tr>
-        <td>Opt-out of Sales</td>
-        <td>-</td>
-        <td>✓</td>
+        <td>ID publicitario</td>
+        <td>Personalización de anuncios</td>
+        <td>Consentimiento (GDPR)<br>Interés legítimo (CCPA)</td>
     </tr>
 </table>
 
-<h2>4. Data Safety Measures</h2>
+<h2>3. Compartición y seguridad de datos</h2>
+<h3>3.1 Encargados del tratamiento</h3>
 <ul>
-    <li>All data transmissions are encrypted (HTTPS)</li>
-    <li>Google's UMP SDK enforces consent before any data processing</li>
+    <li><strong>Supabase</strong> (alojamiento y autenticación) - <a href="https://supabase.com/privacy" target="_blank">Política de Privacidad</a></li>
+    <li><strong>Google AdMob</strong> (publicidad) - <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad</a></li>
 </ul>
 
-<h2>5. Changes & Contact</h2>
-<p>We'll notify users of material changes via:</p>
+<h3>3.2 Medidas de seguridad</h3>
 <ul>
-    <li>In-app banners</li>
-    <li>Updated "Last Updated" date</li>
+    <li>Contraseñas protegidas con <strong>bcrypt</strong></li>
+    <li>Datos cifrados en tránsito (TLS 1.3) y en reposo (AES-256)</li>
+    <li>Auditorías de seguridad periódicas</li>
 </ul>
 
-<p><strong>Contact Our Privacy Team:</strong><br>
+<h2>4. Tus derechos</h2>
+<div class="highlight-box">
+    <strong>Acciones rápidas:</strong>
+    <ul>
+        <li>Eliminar cuenta: Ajustes > Cuenta > Eliminar</li>
+        <li>Exportar datos: Email <a href="mailto:mongamesworld@gmail.com">mongamesworld@gmail.com</a></li>
+        <li>Optar por no recibir anuncios: <a href="https://adssettings.google.com" target="_blank">Ajustes de Google</a></li>
+    </ul>
+</div>
+
+<h3>4.1 Resumen completo de derechos</h3>
+<table>
+    <tr>
+        <th>Derecho</th>
+        <th>Cómo ejercerlo</th>
+    </tr>
+    <tr>
+        <td>Acceso</td>
+        <td>Solicitud por email con identificación</td>
+    </tr>
+    <tr>
+        <td>Rectificación</td>
+        <td>Editar en Ajustes de perfil</td>
+    </tr>
+    <tr>
+        <td>Eliminación</td>
+        <td>Inmediato en la app o 72h por email</td>
+    </tr>
+    <tr>
+        <td>Portabilidad</td>
+        <td>Exportación en JSON en 30 días</td>
+    </tr>
+</table>
+
+<h2>5. Transferencias internacionales</h2>
+<p>Para usuarios de la UE: Los datos pueden transferirse fuera del EEE bajo:</p>
+<ul>
+    <li>Marco UE-EE.UU. de Privacidad de Datos</li>
+    <li>Cláusulas Contractuales Estándar</li>
+</ul>
+
+<h2>6. Contacto y cambios</h2>
+<p><strong>Delegado de Protección de Datos:</strong><br>
 <a href="mailto:mongamesworld@gmail.com">mongamesworld@gmail.com</a><br>
-Response within 30 days guaranteed.</p>
+Respondemos en 72h (GDPR) o 45 días (CCPA).</p>
 
 <div class="privacy-badge">
-    <strong>Children's Privacy:</strong> We comply with COPPA and do not knowingly collect data from users under 13 (16 in EU).
+    <strong>Actualizaciones:</strong> Te notificaremos por email o mediante aviso en la app sobre cambios importantes.
 </div>
 
 </body>
